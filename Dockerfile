@@ -10,5 +10,6 @@ COPY ./srcs/init_container.sh ./
 COPY ./srcs/nginx-conf ./tmp/nginx-conf
 COPY ./srcs/config.inc.php ./tmp/config.inc.php
 COPY ./srcs/wp-config.php ./tmp/wp-config.php
+COPY ./srcs/autoindex.sh ./
 
 CMD bash init_container.sh

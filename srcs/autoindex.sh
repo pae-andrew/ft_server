@@ -1,4 +1,4 @@
-nginx_conf='/etc/nginx/sites-available/qadmiral'
+nginx_conf='/etc/nginx/sites-available/gcrediblsite'
 ai_on='autoindex on;'
 ai_off='autoindex off;'
 
